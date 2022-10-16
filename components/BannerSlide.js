@@ -44,7 +44,7 @@ const BannerSlide = () => {
           </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="bg-[url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg')] bg-center">
+      <SwiperSlide className="bg-[url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg')] bg-center  bg-cover">
         <div className="swiper-content h-full flex lg:gap-16 px-4 items-center justify-center">
           <div>
             <h1 className="text-center lg:text-start font-semibold opacity-0 text-6xl">
@@ -73,7 +73,7 @@ const BannerSlide = () => {
           </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="bg-[url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg')] bg-center">
+      <SwiperSlide className="bg-[url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg')] bg-center  bg-cover">
         <div className="swiper-content h-full flex lg:gap-16 px-4 items-center justify-center">
           <div>
             <h1 className="text-center lg:text-start font-semibold opacity-0 text-6xl">
@@ -103,7 +103,7 @@ const BannerSlide = () => {
           </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="bg-[url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/jsoz1HlxczSuTx0mDl2h0lxy36l.jpg')] bg-center">
+      <SwiperSlide className="bg-[url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/jsoz1HlxczSuTx0mDl2h0lxy36l.jpg')] bg-center  bg-cover">
         <div className="swiper-content h-full flex lg:gap-16 px-4 items-center justify-center">
           <div>
             <h1 className="text-center lg:text-start font-semibold opacity-0 text-6xl">
