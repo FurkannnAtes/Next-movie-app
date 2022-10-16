@@ -14,7 +14,7 @@ const BannerSlide = () => {
       autoplay={{ delay: 5000 }}
       loop={true}
     >
-      <SwiperSlide className="bg-[url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8V1XPEDLtJoxOWlE6gYzn2sQaMp.jpg')] bg-center ">
+      <SwiperSlide className="bg-[url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8V1XPEDLtJoxOWlE6gYzn2sQaMp.jpg')] bg-center bg-cover ">
         <div className="swiper-content h-full flex lg:gap-16 px-4 items-center justify-center">
           <div>
             <h1 className="text-center lg:text-start font-semibold opacity-0 text-6xl">

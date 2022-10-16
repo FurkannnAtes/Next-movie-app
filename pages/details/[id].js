@@ -10,7 +10,7 @@ const MovieDetails = ({ movies, movieVideo, movieSimilar }) => {
   return (
     <div className="bg-black">
       <div
-        className="min-h-[100vh] w-full bg-center flex justify-center items-center relative"
+        className="min-h-[100vh] w-full bg-center bg-cover flex justify-center items-center relative"
         style={{
           backgroundImage: `url('https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces${movies.backdrop_path}')`,
         }}
