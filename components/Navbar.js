@@ -26,11 +26,22 @@ const Navbar = () => {
       className="flex bg-black justify-between items-center px-2 md:px-16 text-xl h-[80px]  fixed w-full lg:bg-transparent text-white z-50"
     >
       <div>
-        <Link href="/">Ofenos</Link>
+        <Link href="/">
+          <a>Ofenos</a>
+        </Link>
       </div>
       <div className="flex gap-5">
-        <Link href="/">Home</Link>
-        <Link href="/movies">Movies</Link>
+        <Link href="/">
+          <a>Home</a>
+        </Link>
+        <Link href="/movies">
+          <a>Movies</a>
+        </Link>
+        <Link href="/search">
+          <a>
+            <i className="bi bi-search"></i>
+          </a>
+        </Link>
       </div>
     </div>
   );

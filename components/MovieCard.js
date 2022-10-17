@@ -5,10 +5,10 @@ import React from "react";
 const MovieCard = ({ movie }) => {
   return (
     <Link href={`/details/${movie.id}`}>
-      <div className="group cursor-pointer">
+      <div className="group cursor-pointer ">
         <div className="relative ">
           <img
-            className="rounded-2xl"
+            className="rounded-2xl "
             src={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2${movie.poster_path}`}
             alt=""
           />
