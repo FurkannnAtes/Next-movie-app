@@ -168,7 +168,7 @@ const BannerSlide = () => {
       </Swiper>
       {modal == 1 ? (
         <div
-          className="fixed top-[50%] bg-black border-2 broder-white p-5 rounded-xl left-[50%] -translate-x-2/4 -translate-y-2/4 z-50"
+          className="fixed top-[50%] bg-black border-2 broder-white p-5 rounded-xl left-[50%] -translate-x-2/4 -translate-y-2/4 z-50 w-[360px] md:w-[600px]"
           open
         >
           <div
@@ -178,6 +178,7 @@ const BannerSlide = () => {
             <i className="bi bi-x-lg ml-auto"></i>
           </div>
           <iframe
+            className="w-full"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/oVzVdvGIC7U"
@@ -190,7 +191,7 @@ const BannerSlide = () => {
       ) : null}
       {modal == 2 ? (
         <div
-          className="fixed top-[50%] bg-black border-2 broder-white p-5 rounded-xl left-[50%] -translate-x-2/4 -translate-y-2/4 z-50"
+          className="fixed top-[50%] bg-black border-2 broder-white p-5 rounded-xl left-[50%] -translate-x-2/4 -translate-y-2/4 z-50 w-[360px] md:w-[600px]"
           open
         >
           <div
@@ -200,6 +201,7 @@ const BannerSlide = () => {
             <i className="bi bi-x-lg ml-auto"></i>
           </div>
           <iframe
+            className="w-full"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/-FmWuCgJmxo"
@@ -212,7 +214,7 @@ const BannerSlide = () => {
       ) : null}
       {modal == 3 ? (
         <div
-          className="fixed top-[50%] bg-black border-2 broder-white p-5 rounded-xl left-[50%] -translate-x-2/4 -translate-y-2/4 z-50"
+          className="fixed top-[50%] bg-black border-2 broder-white p-5 rounded-xl left-[50%] -translate-x-2/4 -translate-y-2/4 z-50 w-[360px] md:w-[600px]"
           open
         >
           <div
@@ -222,6 +224,7 @@ const BannerSlide = () => {
             <i className="bi bi-x-lg ml-auto"></i>
           </div>
           <iframe
+            className="w-full"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/JfVOs4VSpmA"
@@ -234,7 +237,7 @@ const BannerSlide = () => {
       ) : null}
       {modal == 4 ? (
         <div
-          className="fixed top-[50%] bg-black border-2 broder-white p-5 rounded-xl left-[50%] -translate-x-2/4 -translate-y-2/4 z-50"
+          className="fixed top-[50%] bg-black border-2 broder-white p-5 rounded-xl left-[50%] -translate-x-2/4 -translate-y-2/4 z-50 w-[360px] md:w-[600px] "
           open
         >
           <div
@@ -244,6 +247,7 @@ const BannerSlide = () => {
             <i className="bi bi-x-lg ml-auto"></i>
           </div>
           <iframe
+            className="w-full"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/Go8nTmfrQd8"
